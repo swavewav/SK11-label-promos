@@ -191,3 +191,29 @@ footer {
 .form > li > label, .form > li > input {
     display: table-cell;
 }
+
+@media  (max-width: 600px) {
+    .downloads {
+        display: none;
+    }
+    
+    .release {
+        width: 100%;
+    }
+
+    .title {
+        flex-direction: column;
+    }
+
+    .h_line {
+        width: 60vw;
+    }
+
+    .title > h1 {
+        font-size: 1rem;
+    }
+
+    footer {
+        display: none;
+    }
+}
