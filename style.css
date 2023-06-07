@@ -1,219 +1,214 @@
 @font-face {
-    font-family: 'Tekno-One';
-    src: url(fonts/Tekno-One.ttf);
+  font-family: "Tekno-One";
+  src: url(fonts/Tekno-One.ttf);
 }
 
 body {
-    background-color: black;
-    color: #CCCCCC;
-    font-family: 'Tekno-One', Georgia, 'Roboto';
-    font-size : 1rem;
-    margin: 3rem
+  background-color: black;
+  color: #cccccc;
+  font-family: "Tekno-One", Georgia, "Roboto";
+  font-size: 1rem;
+  margin: 3rem;
 }
 
 .title {
-    margin-top: 0 rem;
-    margin-bottom: 0 rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-    
-
+  margin-top: 0 rem;
+  margin-bottom: 0 rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .headings {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .headings > img {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .h_line {
-    border-bottom: 0.1rem solid #CCCCCC;
-    width: 100rem;
-    margin: auto;
+  border-bottom: 0.1rem solid #cccccc;
+  width: 100rem;
+  margin: auto;
 }
 
 main {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    width: 90%;
-    margin: 0 auto;
-   <  border: 0.1rem solid #CCCCCC; >
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  width: 70%;
+  margin: 0 auto;
 }
 
 h4 {
-    font-family: 'Tekno-One', Georgia, 'Roboto';
-    font-size: 0.7rem;
+  font-family: "Tekno-One", Georgia, "Roboto";
+  font-size: 0.7rem;
 }
 
 .release {
-    margin: 0 auto;
-    width: 50%;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .content {
-    font-family: 'Georgia', 'Roboto';
-    font-size: 1.1rem;
-    padding: 1rem;
-    margin: 1rem;
-    margin-left: 0rem;
+  font-family: "Georgia", "Roboto";
+  font-size: 1.1rem;
+  padding: 1rem;
+  margin: 1rem;
+  margin-left: 0rem;
 }
 
 .audio {
-    padding: 0.5rem;
-    margin: 1rem;
-    background-color: #c5bcbc;
-    }
-
-.form {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    border: 0.1rem solid #CCCCCC;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: #c5bcbc;
 }
 
-.form-row {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0.5rem;
-  }
-  .form-row > label {
-    padding: .5rem 1rem .5rem 0;
-    flex: 1;
-  }
-  .form-row > input {
-    flex: 2;
-  }
-  .form-row > input,
-  .form-row > button {
-    padding: 1em;
-  }
-  .form-row > button {
-   background: #CCCCCC;
-   color: black;
-   border: 5;
-  }
+.info {
+  font-family: "Georgia", "Roboto";
+  font-size: 0.7rem;
+  padding: 1rem;
+  margin: 1rem;
+  margin-left: 0rem;
+}
 
 .downloads {
-    margin: 1rem
-}
-
-.links {
-    padding: 1rem;
-    margin-top: 1rem;
-    font-size: 0.8rem;
-}
-
-.rate {
-    float: left;
-    height: 46px;
-    padding: 0 10px;
-}
-.rate:not(:checked) > input {
-    position:absolute;
-    top:-9999px;
-
-}
-.rate:not(:checked) > label {
-    margin-left: 0.3rem;
-    float:right;
-    width:1em;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size:1.5rem;
-    color:#CCCCCC;
-}
-
-.rate:not(:checked) > label:before {
-    content: '★ ';
-}
-.rate > input:checked ~ label {
-    color: #2c2b29;    
-}
-.rate:not(:checked) > label:hover,
-.rate:not(:checked) > label:hover ~ label {
-    color: #2c2b29;   
-}
-.rate > input:checked + label:hover,
-.rate > input:checked + label:hover ~ label,
-.rate > input:checked ~ label:hover,
-.rate > input:checked ~ label:hover ~ label,
-.rate > label:hover ~ input:checked ~ label {
-    color: #2c2b29;   
-}
-
-a:visited {
-    color:#CCCCCC
-}
-
-a:hover {
-    color: #977227;
-}
-
-footer {
-    margin: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-    font-size: 0.8rem;
+  margin: 1rem;
 }
 
 .form {
-    display: table;
+  list-style-type: none;
+  display: table;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding: 1.5rem;
+  border: 0.1rem solid #cccccc;
+  font-size: 0.8rem;
 }
 
 .form > li {
-    display: table-row;
+  display: table-row;
 }
 
-.form > li > label, .form > li > input {
-    display: table-cell;
+.form > li > label,
+.form > li > input {
+  display: table-cell;
 }
 
-@media  (max-width: 600px) {
-    .downloads {
-        display: none;
-    }
-    
-    .release {
-        width: 100%;
-    }
+.form-row {
+  display: table;
+}
+.form-row > label {
+  padding: 0.5rem rem 0.5rem 0;
+  margin: 2rem;
+}
 
-    .title {
-        flex-direction: column;
-    }
+.form-row-a > input {
+  padding: 0rem 3rem 1rem 0;
+  margin: 0.5rem;
+}
+.form-row-f > input {
+  padding: 0rem 3rem 6rem 0;
+  margin: 0.5rem;
+}
 
-    .h_line {
-        width: 60vw;
-    }
+#submit {
+  background-color: #cccccc;
+  color: black;
+  font-family: "Tekno-One";
+  font-size: 0.7rem;
+  padding: 0.6rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
 
-    .title > h1 {
-        font-size: 1rem;
-    }
+}
 
-    footer {
-        display: none;
-    }
+
+.links {
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+a:visited {
+  color: #cccccc;
+}
+
+a:hover {
+  color: #977227;
+}
+
+footer {
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .downloads {
+    display: none;
+  }
+
+  .release {
+    width: 100%;
+  }
+
+  .title {
+    flex-direction: column;
+  }
+
+  .h_line {
+    width: 60vw;
+  }
+
+  .title > h1 {
+    font-size: 1rem;
+  }
+
+  .form {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 0.1rem solid #cccccc;
+    zoom: 0.9;
+  }
+
+  footer {
+    font-size: 0.4rem;
+  }
+
+  .content {
+    width: 90vw;
+    font-size: 0.8rem;
+  }
+
+  .info {
+    width: 90vw;
+    font-size: 0.7rem;
+  }
+
+  body {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
 }
