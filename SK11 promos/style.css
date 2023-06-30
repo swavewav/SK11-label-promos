@@ -1,0 +1,379 @@
+@font-face {
+  font-family: "Tekno-One";
+  src: url(fonts/Tekno-One.ttf);
+}
+@font-face {
+  font-family: "Maison-Neue-Book";
+  src: url(fonts/Maison-Neue-Book.ttf);
+}
+
+body {
+  background-color: black;
+  min-height: 100vh;
+  margin: 0;
+  color: #cccccc;
+  font-family: "Tekno-One", Georgia, "Roboto";
+  font-size: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+.title {
+  margin-top: 0 rem;
+  margin-bottom: 0 rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.headings {
+  margin: 0 auto;
+}
+
+.headings > img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 10%;
+}
+
+.h_line {
+  border-bottom: 0.1rem solid #cccccc;
+  width: 100rem;
+  margin: auto;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h4 {
+  font-family: "Tekno-One", Georgia, "Roboto";
+  font-size: 0.7rem;
+}
+
+.release {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin: 0 auto;
+  width: 45%;
+}
+
+.content {
+  font-family: "Maison-Neue-Book", "Roboto";
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.release_image {
+  align-self: center;
+  max-width: 80%;
+  max-height: 50%;
+}
+
+.release_image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.audio {
+  background-color: #000000;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.info {
+  font-family: "FontsFree-Net-Maison-Neue-Book", "Roboto";
+  font-size: 0.9rem;
+}
+
+.background img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.downloads {
+  display: flex;
+  margin: 0.5rem;
+  max-width: 50%;
+}
+
+.submission {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Tekno-One", Georgia, "Roboto";
+  line-height: 2rem;
+  text-align: center;
+  margin: 2rem;
+  max-width: 100%;
+ }
+
+.release-form {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.release-form input {
+  height: 4rem;
+  margin-bottom: 1rem;
+  width: 88%;
+  padding-left: 0.8rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  font-size: 0.8rem;
+  background: #cccccc;
+  font-family: "Tekno-One";
+  color: rgb(0, 0, 0);
+  resize: none;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  width: 88%;
+  padding-top: 1rem;
+  padding-left: 0.8rem;
+  font-size: 0.8rem;
+  background: #cccccc;
+  font-family: "Tekno-One";
+  color: rgb(0, 0, 0);
+  resize: none;
+  margin-bottom: 1rem;
+}
+
+#submit {
+  background-color: #cccccc;
+  color: black;
+  font-family: "Tekno-One";
+  font-size: 0.6rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  border: 0rem hidden #cccccc;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+
+#submit:hover {
+  background-color: #868383;
+  color: #cccccc;
+}
+
+.links {
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+a:visited {
+  color: #cccccc;
+}
+
+a:hover {
+  color: #868383;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.video {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-self: center;
+margin: 1rem;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin-top: 3rem;
+}
+
+.dropbox {
+  line-height: 2.5rem;
+}
+
+
+@media (max-width: 632px) {
+  body {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  main {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .downloads {
+    display: none;
+  }
+
+  .release {
+    width: 100%;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .h_line {
+    width: 60vw;
+  }
+
+  .title > h1 {
+    font-size: 1rem;
+  }
+  .audio {
+    width: 100%;
+  }
+
+  .release-form {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 25px;
+    zoom: 0.65;
+  }
+
+  footer {
+    font-size: 0.4rem;
+  }
+
+  .content {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .info {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+
+  .submission {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+
+@media (min-width: 633px) and (max-width: 900px) {
+  .headings {
+   
+  }
+  body {
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .release {
+    margin: 0;
+    width: 80%;
+  }
+
+  .audio {
+    width: 100%;
+  }
+
+  .downloads {
+    display: none;
+  }
+
+  .release-form {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 25px;
+    zoom: 0.9;
+  }
+
+  .submission {
+    font-size: 1.5rem;
+  }
+}
